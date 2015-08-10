@@ -1,0 +1,32 @@
+{
+  "name": "blns",
+  "version": "0.0.0",
+  "description": "Big List of Naughty Strings.",
+  "license": "MIT",
+  "repository": "hemanth/blns",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "list",
+    "strings",
+    "test"
+  ],
+  "dependencies": {
+    "got": "^4.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
