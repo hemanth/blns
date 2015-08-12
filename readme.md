@@ -15,9 +15,7 @@ $ npm install --save blns
 ```js
 var blns = require('blns');
 
-blns(function(err, data) {
-  console.log(data); //Will give a Javascript object with all of the naughty strings.
-});
+// blns will be an array of naughty strings.
 ```
 
 ## License
