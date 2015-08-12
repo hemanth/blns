@@ -13,10 +13,12 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "postinstall": "git submodule update --init --recursive" 
   },
   "files": [
-    "index.js"
+    "index.js",
+    "resources"
   ],
   "keywords": [
     "list",
