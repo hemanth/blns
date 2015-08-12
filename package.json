@@ -1,6 +1,6 @@
 {
   "name": "blns",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Big List of Naughty Strings.",
   "license": "MIT",
   "repository": "hemanth/blns",
@@ -24,7 +24,6 @@
     "test"
   ],
   "dependencies": {
-    "got": "^4.1.1"
   },
   "devDependencies": {
     "mocha": "^2.2.5"

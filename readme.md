@@ -15,9 +15,8 @@ $ npm install --save blns
 ```js
 var blns = require('blns');
 
-blns(function(err,data){
-	JSON.parse(data); // Will be an array of blns
-	done();
+blns(function(err, data) {
+  console.log(data); //Will give a Javascript object with all of the naughty strings.
 });
 ```
 
