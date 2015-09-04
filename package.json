@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "postinstall": "git submodule update --init --recursive"
+    "postinstall": "[[ -x $(which git) ]] && git submodule update --init --recursive || echo 'You don't have git installed, so can't update the list'"
   },
   "files": [
     "index.js",
