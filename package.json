@@ -1,6 +1,6 @@
 {
   "name": "blns",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Big List of Naughty Strings.",
   "license": "MIT",
   "repository": "hemanth/blns",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "postinstall": "[[ -x $(which git) ]] && git submodule update --init --recursive || echo 'You don't have git installed, so can't update the list'"
+    "postinstall": "[ -x \"$(which git)\" ] && git submodule update --init --recursive || echo \"You don't have git installed, so can't update the list\""
   },
   "files": [
     "index.js",
